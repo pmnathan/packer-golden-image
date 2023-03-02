@@ -58,7 +58,7 @@ build {
   hcp_packer_registry {
     bucket_name = "golden-ubuntu"
     description = <<EOT
-This is an image for HashiCups 002.
+This is an image for HashiCups 003.
     EOT
 
     bucket_labels = {
