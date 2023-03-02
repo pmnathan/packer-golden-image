@@ -35,7 +35,6 @@ source "azure-arm" "ubuntu-lts" {
 }
 
 build {
-
   source "source.azure-arm.ubuntu-lts" {
     name               = "hashicups"
     location           = var.azure_region
@@ -59,7 +58,7 @@ build {
   hcp_packer_registry {
     bucket_name = "golden-ubuntu"
     description = <<EOT
-This is an image for HashiCups.
+This is an image for HashiCups 001.
     EOT
 
     bucket_labels = {
